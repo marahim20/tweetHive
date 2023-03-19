@@ -23,3 +23,5 @@ To get started, we created a _Next.js app_, which makes it easy to set up a Reac
 **Axios**: This is a popular JavaScript library used for making HTTP requests from web applications. It provides an easy-to-use API for sending asynchronous HTTP requests to a server and handling the response. Axios supports a wide range of features, such as request and response interception, automatic serialization and deserialization of JSON data, and the ability to cancel requests.
 
 **React Spinners**: This is a collection of loading spinner animations built for React applications. It provides a set of pre-built loading spinners that can be easily integrated into any React project. These spinners are highly customizable and can be adjusted to match the branding and styling of the application.
+
+**React Dropzone**: This is a React library that provides an easy-to-use drag-and-drop file upload component for web applications. It simplifies the process of uploading files by allowing users to drag and drop files from their computer directly into the web application.

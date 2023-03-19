@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import useUser from "../../hooks/useUser";
+import useUser from "@/hooks/useUser";
 
 import Avatar from "../Avatar";
 
@@ -10,6 +10,7 @@ interface UserHeroProps {
 
 const UserHero: React.FC<UserHeroProps> = ({ userId }) => {
   const { data: fetchedUser } = useUser(userId);
+
   return (
     <div>
       <div className="bg-neutral-700 h-44 relative">
@@ -17,7 +18,7 @@ const UserHero: React.FC<UserHeroProps> = ({ userId }) => {
           <Image
             src={fetchedUser.coverImage}
             fill
-            alt="cover image"
+            alt="Cover Image"
             style={{ objectFit: "cover" }}
           />
         )}
