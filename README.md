@@ -1,4 +1,4 @@
-_Thank you for the opportunity to showcase my skills and create this mini social media network website. I am excited to present the project, which is a functional platform that mimics the features of a Twitter page._
+_Thank you for the opportunity to showcase my skills and create this mini social media network website. I am excited to present the project, which is a functional platform that mimics the features of a Twitter page. I've always wanted to build a fullstack social network project!_
 
 _I understand that there may be questions about some of the choices I have made in the development of the site, and I want to reassure you that I am happy to walk you through any of the functionalities or design choices I have made. I believe that transparency and collaboration are key to the success of any project, and I am committed to ensuring that my work meets your expectations._
 
