@@ -17,3 +17,9 @@ To get started, we created a _Next.js app_, which makes it easy to set up a Reac
 **bcrypt**: This is a password-hashing function that allows developers to store passwords securely in a database. It uses a computationally intensive algorithm to hash passwords, making them difficult to crack or guess. bcrypt is widely used in web applications and is considered a best practice for password storage.
 
 **NextAuth**: This is a library that provides easy authentication for Next.js applications. It supports multiple authentication providers, such as OAuth2, OpenID Connect, and passwordless authentication. NextAuth allows developers to add authentication to their applications with just a few lines of code, while still providing advanced features like session management and access control.
+
+**SWR**: ("stale-while-revalidate") This is a React Hooks library that makes it easy to fetch data from a remote API and keep it up to date in the user interface. It does this by caching responses from the API and revalidating them in the background. This allows for faster page loads and smoother user experiences, as well as better performance and fewer unnecessary network requests.
+
+**Axios**: This is a popular JavaScript library used for making HTTP requests from web applications. It provides an easy-to-use API for sending asynchronous HTTP requests to a server and handling the response. Axios supports a wide range of features, such as request and response interception, automatic serialization and deserialization of JSON data, and the ability to cancel requests.
+
+**React Spinners**: This is a collection of loading spinner animations built for React applications. It provides a set of pre-built loading spinners that can be easily integrated into any React project. These spinners are highly customizable and can be adjusted to match the branding and styling of the application.
