@@ -1,10 +1,14 @@
 import useUsers from "@/hooks/useUsers";
-import React from "react";
+
 import Avatar from "../Avatar";
 
-export default function FollowBar() {
+const FollowBar = () => {
   const { data: users = [] } = useUsers();
-  if (users.length === 0) return null;
+
+  if (users.length === 0) {
+    return null;
+  }
+
   return (
     <div className="px-6 py-4 hidden lg:block">
       <div className="bg-neutral-800 rounded-xl p-4">
@@ -23,4 +27,6 @@ export default function FollowBar() {
       </div>
     </div>
   );
-}
+};
+
+export default FollowBar;
