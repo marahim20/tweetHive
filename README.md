@@ -1,3 +1,11 @@
+_Thank you for the opportunity to showcase my skills and create this mini social media network website. I am excited to present the project, which is a functional platform that mimics the features of a Twitter page._
+
+_I understand that there may be questions about some of the choices I have made in the development of the site, and I want to reassure you that I am happy to walk you through any of the functionalities or design choices I have made. I believe that transparency and collaboration are key to the success of any project, and I am committed to ensuring that my work meets your expectations._
+
+_If you have any questions or concerns, please do not hesitate to reach out to me. Once again, thank you for this opportunity. I am excited to share my work with you and look forward to hearing your feedback._
+
+**Hosted@ _https://tweethive.netlify.app/_**
+
 **Mini Social Network Project**
 
 _This is a project for a mini social network, built using React and some useful libraries. The goal of this project is to create a platform where users can sign up, search for other users, view their profiles, and add or remove them as friends._
@@ -25,3 +33,7 @@ To get started, we created a _Next.js app_, which makes it easy to set up a Reac
 **React Spinners**: This is a collection of loading spinner animations built for React applications. It provides a set of pre-built loading spinners that can be easily integrated into any React project. These spinners are highly customizable and can be adjusted to match the branding and styling of the application.
 
 **React Dropzone**: This is a React library that provides an easy-to-use drag-and-drop file upload component for web applications. It simplifies the process of uploading files by allowing users to drag and drop files from their computer directly into the web application.
+
+To run in local:
+    npm install
+    npm run dev
