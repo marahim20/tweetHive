@@ -1,12 +1,13 @@
 import { useRouter } from "next/router";
 import { BsTriangleHalf } from "react-icons/bs";
+import { GiPoolTriangle } from "react-icons/gi";
 
 const SidebarLogo = () => {
   const router = useRouter();
-  
+
   return (
-    <div 
-      onClick={() => router.push('/')}
+    <div
+      onClick={() => router.push("/")}
       className="
         rounded-full 
         h-14
@@ -18,8 +19,9 @@ const SidebarLogo = () => {
         hover:bg-blue-300 
         hover:bg-opacity-10 
         cursor-pointer
-    ">
-      <BsTriangleHalf size={28} color="white" />
+    "
+    >
+      <GiPoolTriangle size={28} color="white" />
     </div>
   );
 };
